@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="css/estilo.css">
+        <title>Porftolio Gonzalo Principe</title>
+        <link rel="shortcut icon" href="C:\Users\Usuario-PC\Desktop\Mi portfolio\globe.png">
+    </head>
+    <body>
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <h1>Gonzalo Principe</h1>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+    
+                        <!-- Icono del menu responsive -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+    
+    
+                        <div class="redes">
+                            <a href="https://www.facebook.com/gonzalo.principe/"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </header>
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenidos</p>
+                    <h2>Soy <span>Gonzalo Principe</span>, Desarrollador Front End</h2>
+                    <p class="descripcion">Este es mi primer proyecto, realizado con el profesionalismo alcanzado hasta el momento </p>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Seccion sobre mi -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="C:\Users\Usuario-PC\Desktop\Mi portfolio\Fotoperfil.png" alt="Foto de perfil">
+            </div>
+            <div class="sobremi">
+                <p class="titulo-seccion">Sobre Mi</p>
+                <h2>Hola, soy </span> Gonzalo Principe</span> </h2>
+                <p>-Certificado por el programa nacional Argentina Programa 4.0</p>
+                <p>-Evaluado a traves de la plataforma TICMAS</p>
+                <p>-Cuento con amplia experiencia en gestion de retail y de personal</p>
+                <p>-Certificado en administracion de empresas</p>
+                <a href="C:\Users\Usuario-PC\Desktop\Mi portfolio\CV.docx">Descargar CV</a>
+            </div>
+        </section>
+    
+            <!-- Seccion contacto -->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contactame </h3>
+            <div class="contenedor-form">
+                <form action="form"  action="https://formspree.io/f/xleknegw"
+                     method="POST">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo " class="input-mitad" name="name">>
+                        <input type="email" placeholder="Dirección de Email" class="input-mitad" name="replyto">>
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema o pregunta..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"name="mensaje"></textarea>></textarea>
+                    </div>
+    
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+    
+        <!-- Seccion footer -->
+        <footer>
+            <p>MUCHAS GRACIAS POR TU VISITA</p>  
+            </div>
+    
+        </footer>
+    
+        <script src="script.js"></script>
+    
+    
+    </body>
+</html>
